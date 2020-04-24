@@ -12,7 +12,7 @@ public class Utils {
     public static String getProperty(String key, Context context) throws IOException {
         Properties properties = new Properties();
         AssetManager assetManager = context.getAssets();
-        InputStream inputStream = assetManager.open("config.properties");
+        InputStream inputStream = assetManager.open("config.dev.properties");
         properties.load(inputStream);
         return properties.getProperty(key);
     }
