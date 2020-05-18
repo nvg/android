@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@android:drawable/sym_def_app_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_items"
+            android:checked="true"
+            android:icon="@android:drawable/sym_contact_card"
+            android:title="Items" />
+        <item
+            android:id="@+id/nav_data"
+            android:checked="true"
+            android:icon="@android:drawable/sym_action_chat"
+            android:title="Data" />
+    </group>
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/sym_action_email"
+                android:title="Feedback" />
+        </menu>
+
+    </item>
+</menu>

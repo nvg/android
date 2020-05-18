@@ -1,0 +1,33 @@
+
+gameplay.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+player
+  rotate: false
+  xy: 2, 2
+  size: 800, 850
+  orig: 800, 850
+  offset: 0, 0
+  index: -1
+
+gameplay2.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 2, 2
+  size: 445, 890
+  orig: 445, 890
+  offset: 0, 0
+  index: -1
+obstacle
+  rotate: false
+  xy: 449, 637
+  size: 255, 255
+  orig: 255, 255
+  offset: 0, 0
+  index: -1
